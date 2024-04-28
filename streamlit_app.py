@@ -1,7 +1,10 @@
-#import streamlit as st
-#from gtts import gTTS
-#from IPython.display import Audio
-#import os
+pip install gtts 
+pip install streamlit
+
+import streamlit as st
+from gtts import gTTS
+from IPython.display import Audio
+import os
 
 # Define a function to convert text to speech
 def speak(text):
